@@ -1,0 +1,25 @@
+# ===== 数据文件：体积大 / 可重新生成，不入库 =====
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.xlsx
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# ===== 编辑器 / 系统 =====
+.idea/
+.ipynb_checkpoints/
+Thumbs.db
+desktop.ini
+
+# 如需连同 VS Code 配置一起忽略，取消下一行注释
+# .vscode/
+
+# 如需保留某个示例数据文件，用感叹号例外（示例）
+# !data_layer/sample_data.csv
